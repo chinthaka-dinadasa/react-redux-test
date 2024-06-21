@@ -1,13 +1,13 @@
 // src/App.tsx
 import React from 'react';
-import Counter from './features/counter/Counter';
 import './App.css';
+import PostForm from './features/post/PostForm';
 
 const App: React.FC = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <Counter />
+        <PostForm />
       </header>
     </div>
   );
