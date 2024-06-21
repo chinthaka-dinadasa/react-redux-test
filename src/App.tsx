@@ -1,11 +1,14 @@
+// src/App.tsx
 import React from 'react';
+import Counter from './features/counter/Counter';
 import './App.css';
-import Hello from './components/Hello';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <Hello name="Chinthaka" />
+      <header className="App-header">
+        <Counter />
+      </header>
     </div>
   );
 };
